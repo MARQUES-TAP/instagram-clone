@@ -1,0 +1,42 @@
+@import "../styles.scss";
+body {
+    header {
+        position: fixed;
+        background-color: white;
+        max-width: 375px;
+        .pesquisa {
+            width: 100%;
+            @include simple-flex( space-around, center);
+            margin: 5px 0px;
+            input {
+                background-color: #7676801F;
+                width: 80%;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+        .buscar {
+            @include simple-flex;
+            overflow-x: auto;
+            p {
+                border: 1px solid #3c3c432e;
+                border-radius: 6px;
+                padding: 8px 11px;
+                margin: 5px;
+            }
+        }
+    }
+    main {
+        padding-top: 90px;
+        .search-container {
+            @include simple-flex;
+            flex-wrap: wrap;
+            .search-image {
+                width: 124px;
+                height: 120px;
+                margin: 0, 5px 0, 5px;
+            }
+        }
+    }
+}

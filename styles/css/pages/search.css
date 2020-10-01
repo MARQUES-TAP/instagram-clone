@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*,
+p {
+  font-family: Arial;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+.tab-bar .action-icon {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.tab-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: sticky;
+  bottom: 0;
+  padding: 10px 0;
+  border-top: 1px solid #e2e2e2;
+}
+.tab-bar .action-icon {
+  width: 22px;
+}
+
+body header {
+  position: fixed;
+  background-color: white;
+  max-width: 375px;
+}
+body header .pesquisa {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+body header .pesquisa input {
+  background-color: #7676801F;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+body header .buscar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  overflow-x: auto;
+}
+body header .buscar p {
+  border: 1px solid #3c3c432e;
+  border-radius: 6px;
+  padding: 8px 11px;
+  margin: 5px;
+}
+body main {
+  padding-top: 90px;
+}
+body main .search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body main .search-container .search-image {
+  width: 124px;
+  height: 120px;
+  margin: 0, 5px 0, 5px;
+}
+
+/*# sourceMappingURL=search.css.map */
